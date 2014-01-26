@@ -5,4 +5,3 @@ createServerOfClass: aServerClass withName: aName on: anArrayOfPortNumbers
 		name: aName;
 		ports: anArrayOfPortNumbers;
 		yourself.
-		

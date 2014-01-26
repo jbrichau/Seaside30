@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		"Tasks" ],
-	"commentStamp" : "dkh 10/13/2011 09:00",
+	"commentStamp" : "",
 	"instvars" : [
 		"name",
 		"frequency",
