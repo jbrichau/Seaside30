@@ -20,4 +20,6 @@ renderOperationsOn: html
 							html listItem
 								class:'dropdown-header';
 								with: 'With all selected do...'.
-							html listItem: [html anchor: 'Remove']]]].
+							html listItem: [html anchor
+												callback:[ self deleteAllSelectedLogEntries ];
+												with: 'Remove']]]].

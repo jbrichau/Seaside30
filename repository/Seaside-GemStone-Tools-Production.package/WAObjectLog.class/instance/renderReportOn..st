@@ -7,6 +7,7 @@ renderReportOn: html
 	html table
 		class:'table table-condensed table-striped';
 		style: 'font-size: 12px';
+		script: (self scriptToHandleSelectOn: html);
 		with:[
 			html tableRow:[
 				html tableHeading: 'Priority'.

@@ -1,4 +1,4 @@
-rendering
+scripts
 scriptToSetCheckboxesOn: html
 	^ ((html jQuery id: 'selectall') propertyAt: 'checked')
 		then: ((html jQuery class: 'selectentry')
